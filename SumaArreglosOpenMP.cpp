@@ -40,7 +40,7 @@ int main()
     // -----------------------
     // EJECUCIÓN PARALELA
     // -----------------------
-    omp_set_num_threads(4);
+    omp_set_num_threads(2);
 
     auto inicio_par = high_resolution_clock::now();
 
